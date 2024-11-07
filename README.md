@@ -1,2 +1,75 @@
 # sudoku838.github.io
-<br><!DOCTYPE html><br><html lang="ru"><br><head><br>    <meta charset="UTF-8"><br>    <meta name="viewport" content="width=device-width, initial-scale=1.0"><br>    <title>API по Населению</title><br>    <style><br>        body {<br>            font-family: Arial, sans-serif;<br>            margin: 20px;<br>        }<br>        nav {<br>            margin-bottom: 20px;<br>        }<br>        nav a {<br>            margin-right: 15px;<br>            text-decoration: none;<br>            color: #007BFF;<br>        }<br>        nav a:hover {<br>            text-decoration: underline;<br>        }<br>    </style><br></head><br><body><br><br><h1>Меню API по Населению</h1><br><br><nav><br>    <a href="/population/countries">Население по странам</a><br>    <a href="/population/cities">Население по городам</a><br>    <a href="/population/age-groups">Возрастные группы</a><br>    <a href="/population/demographics">Демографическая информация</a><br>    <a href="/population/trends">Тенденции населения</a><br></nav><br><br><section><br>    <h2>Описание API</h2><br>    <p>Используйте ссылки в меню для получения информации о населении из разных источников.</p><br></section><br><br></body><br></html><br>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример Визуальной Части Сайта</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Добро пожаловать на наш сайт</h1>
+</header>
+
+<nav>
+    <a href="#home">Главная</a>
+    <a href="#about">О нас</a>
+    <a href="#services">Услуги</a>
+    <a href="#contact">Контакты</a>
+</nav>
+
+<main>
+    <h2>Наши Услуги</h2>
+    <p>Мы предлагаем широкий спектр услуг, включая:</p>
+    <ul>
+        <li>Консалтинг</li>
+        <li>Разработка программного обеспечения</li>
+        <li>Аудит и анализ данных</li>
+    </ul>
+</main>
+
+<footer>
+    <p>&copy; 2023 Ваша Компания</p>
+</footer>
+
+</body>
+</html>
+
