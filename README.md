@@ -45,13 +45,13 @@
 </html>
 
 <div id="tab1" class="tab-content active">
-    <h2>Tab 1 content</h2>
+    <h2>Понедельник 14 октября 2024</h2>
 </div>
 <div id="tab2" class="tab-content">
-    <h2>Tab 2 content</h2>
+    <h2>Вторник 15 октября 2024</h2>
 </div>
 <div id="tab3" class="tab-content">
-    <h2>Tab 3 content</h2>
+    <h2>Среда 16 октяюря 2024</h2>
 </div>
 
 <script>
