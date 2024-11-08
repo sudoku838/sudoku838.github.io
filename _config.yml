@@ -1,17 +1,1 @@
 remote_ theme: pages-themes/cayman@v0.2.0
-<html>
-<head>
-<style>
-html {
-    min-height: 100%; 
-}
-body {
-    background: -webkit-linear-gradient(#93B874, #C9DCB9); 
-    background: -o-linear-gradient(#93B874, #C9DCB9); 
-    background: -moz-linear-gradient(#93B874, #C9DCB9); 
-    background: linear-gradient(#93B874, #C9DCB9); 
-    background-color: #93B874; 
-}
-</style> 
-</head>
-</html>
