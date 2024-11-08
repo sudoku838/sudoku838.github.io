@@ -44,16 +44,23 @@
 </body>
 </html>
 
-<div class="tabs">
-  <ul class="tab-list">
-    <li class="tab-item active" data-tab="tab1">Понедельник</li>
-    <li class="tab-item" data-tab="tab2">Вторник</li>
-    <li class="tab-item" data-tab="tab3">Среда</li>
-  </ul>
-  <div class="tab-content">
-    <div class="tab-pane active" id="tab1">14 октября 2024</div>
-    <div class="tab-pane" id="tab2">15 октября 2024</div>
-    <div class="tab-pane" id="tab3">16 октября 2024</div>
-  </div>
+<div id="tab1" class="tab-content active">
+    <h2>Tab 1 content</h2>
+</div>
+<div id="tab2" class="tab-content">
+    <h2>Tab 2 content</h2>
+</div>
+<div id="tab3" class="tab-content">
+    <h2>Tab 3 content</h2>
 </div>
 
+<script>
+    function openTab(tabName) {
+        var i, tabContent;
+        tabContent = document.getElementsByClassName("tab-content");
+        for (i = 0; i < tabContent.length; i++) {
+            tabContent[i].style.display = "none";
+        }
+        document.getElementById(tabName).style.display = "block";
+    }
+</script>
