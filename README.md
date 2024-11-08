@@ -46,9 +46,9 @@
 
 <div class="tabs">
   <ul class="tab-list">
-    <li class="tab-item active" data-tab="tab1">Таб 1</li>
-    <li class="tab-item" data-tab="tab2">Таб 2</li>
-    <li class="tab-item" data-tab="tab3">Таб 3</li>
+    <li class="tab-item active" data-tab="tab1">Понедельник</li>
+    <li class="tab-item" data-tab="tab2">Вторник</li>
+    <li class="tab-item" data-tab="tab3">Среда</li>
   </ul>
   <div class="tab-content">
     <div class="tab-pane active" id="tab1">14 октября 2024</div>
